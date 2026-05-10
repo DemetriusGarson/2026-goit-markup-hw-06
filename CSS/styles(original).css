@@ -265,9 +265,12 @@ fieldset {
 .benefits {
     /* HW3 */
     padding: 120px 0;
+    
 }
 
-/* .benefits .container{} */
+/* .benefits .container{
+    
+} */
 
 /* .benefits-heading{} */  /* visually hidden */
 
@@ -286,7 +289,7 @@ fieldset {
 
 .benefits-list-item-container{
     /* HW4 */
-    /* max-width: 264px; */
+    /* max-width: 288px; */
     height: 112px;
     border: 1px solid #8E8F99;
     border-radius: 4px;

@@ -746,7 +746,7 @@
     <!-- ! FOOTER section XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX FOOTER -->
 
     <!-- ! MODAL section !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! MODAL -->
-     <div class="modal-overlay">
+     <div class="modal-overlay is-open">
       <div class="modal-window">
         <button class="modal-icon-close-button">
           <svg class="modal-icon-close" width="8px" height="8px">
@@ -794,8 +794,13 @@
                   <use href="./images/icons/icons.svg#icon-check"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a class="modal-privacy-reference" href="">Privacy Policy</a>
+              <div class="modal-label-text-wrapper">
+                <p class="modal-label-text">
+                I accept the terms and conditions of the
+                </p>
+                <a class="modal-privacy-reference" href="">Privacy Policy</a>
+              </div>
+              
             </label>
           </div>
           <button class="modal-button" type="submit">Send</button>
